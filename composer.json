@@ -6,8 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/lumen-framework": "5.8.*",
-        "vlucas/phpdotenv": "^3.3",
+        "laravel/lumen-framework": "5.6.*",
+        "vlucas/phpdotenv": "~2.2",
         "krisanalfa/lumen-dingo-adapter": "^0.0.3"
     },
     "require-dev": {
