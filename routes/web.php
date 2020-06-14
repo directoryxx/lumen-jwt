@@ -15,7 +15,7 @@ $router->get('/hello', function () {
     return 'Hello World';
 });
 
-$api = $router->make(Dingo\Api\Routing\Router::class);
+$api = app(Dingo\Api\Routing\Router::class);
 
 $api->version('v1', function ($api) {
     $api->post('/auth/login', [
