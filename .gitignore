@@ -4,3 +4,4 @@
 .env.testing
 /redis-data
 /postgres-data
+composer.lock

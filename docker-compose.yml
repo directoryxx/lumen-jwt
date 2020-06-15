@@ -1,7 +1,7 @@
 version: "3"
 services:
   app:
-    image: directoryx/php:7.2-fpm-node10
+    image: directoryx/php:7.2-opcache-fpm-node10
     container_name: app
     restart: unless-stopped
     environment:
